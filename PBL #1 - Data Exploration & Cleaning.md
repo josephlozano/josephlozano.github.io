@@ -355,7 +355,7 @@ sns.distplot(train['Months since last delinquent'].dropna())
 
 
 
-![png](output_28_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_28_1.png)
 
 
 
@@ -394,6 +394,19 @@ train.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -567,7 +580,7 @@ sns.catplot(data=train, x='Loan Status', kind='count')
 
 
 
-![png](output_33_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_33_1.png)
 
 
 
@@ -609,6 +622,19 @@ train.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1189,7 +1215,7 @@ sns.catplot(data=train, x='Loan Status', kind='count')
 
 
 
-![png](output_41_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_41_1.png)
 
 
 
@@ -1287,6 +1313,11 @@ train[train['Credit Score']>850]['Credit Score'].value_counts()
 
 
 ```python
+#check if 'Credit Score' > 800 if still in range of normal credit score numbers
+```
+
+
+```python
 sns.catplot(data=train, x='Credit Score', kind='count')
 ```
 
@@ -1298,7 +1329,7 @@ sns.catplot(data=train, x='Credit Score', kind='count')
 
 
 
-![png](output_44_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_45_1.png)
 
 
 
@@ -1339,7 +1370,7 @@ sns.catplot(data=train, x='Credit Score', kind='count')
 
 
 
-![png](output_47_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_48_1.png)
 
 
 
@@ -1744,7 +1775,7 @@ sns.distplot(train['Monthly Debt'])
 
 
 
-![png](output_71_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_72_1.png)
 
 
 
@@ -1760,7 +1791,7 @@ sns.boxplot(x="Monthly Debt", data=train)
 
 
 
-![png](output_72_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_73_1.png)
 
 
 
@@ -1776,7 +1807,7 @@ sns.catplot(x="Term", y="Monthly Debt", hue="Loan Status", data=train, kind="bar
 
 
 
-![png](output_73_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_74_1.png)
 
 
 
@@ -1857,7 +1888,7 @@ sns.catplot(x='Years in current job',y='Loan Status',data=train, kind = 'bar')
 
 
 
-![png](output_80_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_81_1.png)
 
 
 
@@ -1985,7 +2016,7 @@ sns.boxplot(x="Annual Income", data=train)
 
 
 
-![png](output_87_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_88_1.png)
 
 
 
@@ -2001,7 +2032,7 @@ sns.distplot(train['Annual Income'])
 
 
 
-![png](output_88_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_89_1.png)
 
 
 
@@ -2287,7 +2318,7 @@ sns.distplot(train['Months since last delinquent'])
 
 
 
-![png](output_109_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20Cleaning_110_1.png)
 
 
 
