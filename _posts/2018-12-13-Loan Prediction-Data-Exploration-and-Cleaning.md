@@ -1,15 +1,14 @@
 ---
-
 title: "Loan Prediction - Data Exploration & Cleaning"
 layout: post
 date: 2018-12-13
+tag:
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
 category: blog
 author: josephlozano
 externalLink: false
-
 ---
 
 # Business Objective: 
