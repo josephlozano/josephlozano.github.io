@@ -1,3 +1,15 @@
+---
+title: "Loan Prediction - Data Exploration & Cleaning"
+layout: post
+date: 2018-12-13
+tag: posting
+projects: true
+hidden: true # don't count this post in blog pagination
+description: ""
+category: blog
+author: josephlozano
+externalLink: false
+---
 
 # Business Objective: 
 A financial institution wants help identifying customers who have a lesser chance of defaulting on their loan.
