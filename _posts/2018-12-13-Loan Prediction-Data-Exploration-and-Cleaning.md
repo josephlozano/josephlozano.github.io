@@ -1,4 +1,5 @@
 ---
+
 title: "Loan Prediction - Data Exploration & Cleaning"
 layout: post
 date: 2018-12-13
@@ -8,6 +9,7 @@ description: ""
 category: blog
 author: josephlozano
 externalLink: false
+
 ---
 
 # Business Objective: 
