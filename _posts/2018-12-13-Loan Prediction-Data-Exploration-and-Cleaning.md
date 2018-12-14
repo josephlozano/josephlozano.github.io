@@ -1,7 +1,7 @@
 ---
 title: "Loan Prediction - Data Exploration & Cleaning"
 layout: post
-date: 2017-08-18
+date: 2018-12-13
 tag: posting
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -322,81 +322,6 @@ train['Credit Score'].describe()
 
 
 
-**The values above 850 represent credit scores with an extra zero at the end.**
-
-
-```python
-train[train['Credit Score']>850]['Credit Score'].value_counts()
-```
-
-
-
-
-    7380.0    127
-    7410.0    126
-    7400.0    121
-    7330.0    120
-    7370.0    118
-    7290.0    114
-    7270.0    114
-    7360.0    113
-    7300.0    113
-    7320.0    112
-    7210.0    109
-    7280.0    109
-    7350.0    108
-    7420.0    105
-    7430.0    105
-    7310.0    105
-    7200.0     98
-    7160.0     98
-    7390.0     97
-    7260.0     97
-    7240.0     97
-    7340.0     96
-    7130.0     89
-    7230.0     88
-    7220.0     86
-    7120.0     86
-    7250.0     82
-    7460.0     82
-    7110.0     79
-    7010.0     77
-             ... 
-    5950.0      5
-    6340.0      5
-    6190.0      5
-    6210.0      5
-    6160.0      4
-    6150.0      4
-    6100.0      4
-    6060.0      4
-    6080.0      4
-    6010.0      4
-    6130.0      4
-    6230.0      4
-    6310.0      4
-    6260.0      4
-    5970.0      4
-    5990.0      3
-    6050.0      3
-    5980.0      2
-    5920.0      2
-    5960.0      2
-    6000.0      2
-    6140.0      2
-    5870.0      2
-    5930.0      2
-    6070.0      2
-    5910.0      2
-    6030.0      2
-    6090.0      2
-    6040.0      1
-    5850.0      1
-    Name: Credit Score, Length: 162, dtype: int64
-
-
-
 
 ```python
 sns.catplot(data=train, x='Credit Score', kind='count')
@@ -410,7 +335,7 @@ sns.catplot(data=train, x='Credit Score', kind='count')
 
 
 
-![png](output_33_1.png)
+![png](images/loan_prediction_data_exploration/output_33_1.png)
 
 
 **Removing the extra zero from values above 850 brings all credit score values between the range of 0 to 850**
@@ -453,7 +378,7 @@ sns.catplot(data=train, x='Credit Score', kind='count')
 
 
 
-![png](output_37_1.png)
+![png](images/loan_prediction_data_exploration/output_37_1.png)
 
 
 **Searching for '#VALUE!' and setting equal to nan**
@@ -1140,7 +1065,7 @@ sns.boxplot('Months since last delinquent', data = train)
 
 
 
-![png](output_85_2.png)
+![png](images/loan_prediction_data_exploration/output_85_2.png)
 
 
 
@@ -1156,7 +1081,7 @@ sns.distplot(train['Months since last delinquent'].dropna())
 
 
 
-![png](output_86_1.png)
+![png](images/loan_prediction_data_exploration/output_86_1.png)
 
 
 
@@ -1190,7 +1115,7 @@ sns.catplot(data=train, x='Loan Status', kind='count')
 
 
 
-![png](output_88_1.png)
+![png](images/loan_prediction_data_exploration/output_88_1.png)
 
 
 **There appears to a minimal amount of variation in loan status outcome with a change in years in current job**
@@ -1208,7 +1133,7 @@ sns.catplot(x='Years in current job',y='Loan Status',data=train, kind = 'bar')
 
 
 
-![png](output_90_1.png)
+![png](images/loan_prediction_data_exploration/output_90_1.png)
 
 
 **Credit Score, Term, Current Loan Amount, and Number of Open Accounts are most correlated to loan status without any feature engineering**
