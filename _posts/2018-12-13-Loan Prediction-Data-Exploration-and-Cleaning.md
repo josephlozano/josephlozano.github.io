@@ -6,7 +6,7 @@ tag: posting
 projects: true
 hidden: true # don't count this post in blog pagination
 description: ""
-category: blog
+category: project
 author: josephlozano
 externalLink: false
 ---
