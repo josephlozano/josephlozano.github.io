@@ -1,11 +1,11 @@
 ---
 title: "Loan Prediction - Data Exploration & Cleaning"
 layout: post
-date: 2018-12-13
-tag:
+date: 2017-08-18
+tag: posting
 projects: true
 hidden: true # don't count this post in blog pagination
-description: ""
+description: "Binary Classification Project"
 category: blog
 author: josephlozano
 externalLink: false
