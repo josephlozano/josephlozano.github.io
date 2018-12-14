@@ -1,9 +1,9 @@
 # main text of home
 name: Joseph Lozano
-bio: A Man who travels the world eating noodles
+bio: CSUF Economics Student | Data Scientist in Training
 
 # twitter summary info
-description: A blog about technology and stuff related
+#description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
@@ -42,7 +42,7 @@ disqus:
 linkedin: joseph-a-lozano
 # youtube: myyoutube
 # spotify: myspotify
-# gitlab: mygitlab
+gitlab: josephlozano
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -53,23 +53,17 @@ linkedin: joseph-a-lozano
 email: joseph.lozano@csu.fullerton.edu
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    josephlozano:
+        name: Joseph Lozano
+        bio: CSUF Economics Student | Data Scientist in Training
         external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/profile.png
+        linkedin: joseph-a-lozano
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
