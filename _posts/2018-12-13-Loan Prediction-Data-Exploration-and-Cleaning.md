@@ -1,5 +1,18 @@
+---
+title: "Loan Prediction - Data Exploration & Cleaning"
+layout: post
+date: 2017-08-18
+tag: posting
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Binary Classification Project"
+category: blog
+author: josephlozano
+externalLink: false
+---
 
-# Business Objective: 
+# Business Objective:
+ 
 A financial institution wants help identifying customers who have a lesser chance of defaulting on their loan.
 
 Build a predictive model that would predict who would be a good customer and come up with questions to ask <br>
