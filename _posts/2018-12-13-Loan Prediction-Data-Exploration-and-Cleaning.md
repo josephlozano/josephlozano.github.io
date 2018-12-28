@@ -1,7 +1,7 @@
 ---
 title: "Loan Prediction - Data Exploration & Cleaning"
 layout: post
-date: 2018-12-13
+date: 2017-08-18
 tag: posting
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -11,8 +11,8 @@ author: josephlozano
 externalLink: false
 ---
 
-# Business Objective:
- 
+# Business Objective: 
+
 A financial institution wants help identifying customers who have a lesser chance of defaulting on their loan.
 
 Build a predictive model that would predict who would be a good customer and come up with questions to ask <br>
@@ -410,7 +410,7 @@ sns.catplot(data=train, x='Credit Score', kind='count')
 
 
 
-![png](output_33_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_33_1.png)
 
 
 **Removing the extra zero from values above 850 brings all credit score values between the range of 0 to 850**
@@ -453,7 +453,7 @@ sns.catplot(data=train, x='Credit Score', kind='count')
 
 
 
-![png](output_37_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_37_1.png)
 
 
 **Searching for '#VALUE!' and setting equal to nan**
@@ -1140,7 +1140,7 @@ sns.boxplot('Months since last delinquent', data = train)
 
 
 
-![png](output_85_2.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_85_2.png)
 
 
 
@@ -1156,7 +1156,7 @@ sns.distplot(train['Months since last delinquent'].dropna())
 
 
 
-![png](output_86_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_86_1.png)
 
 
 
@@ -1190,7 +1190,7 @@ sns.catplot(data=train, x='Loan Status', kind='count')
 
 
 
-![png](output_88_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_88_1.png)
 
 
 **There appears to a minimal amount of variation in loan status outcome with a change in years in current job**
@@ -1208,7 +1208,7 @@ sns.catplot(x='Years in current job',y='Loan Status',data=train, kind = 'bar')
 
 
 
-![png](output_90_1.png)
+![png](PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_files/PBL%20%231%20-%20Data%20Exploration%20%26%20cleaning_90_1.png)
 
 
 **Credit Score, Term, Current Loan Amount, and Number of Open Accounts are most correlated to loan status without any feature engineering**
