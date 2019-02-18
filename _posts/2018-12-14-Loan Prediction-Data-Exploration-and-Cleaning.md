@@ -1,7 +1,7 @@
 ---
 title: "Loan Prediction - Data Exploration & Cleaning"
 layout: post
-date: 2018-12-13
+date: 2018-12-14
 tag: posting
 projects: true
 hidden: true # don't count this post in blog pagination
