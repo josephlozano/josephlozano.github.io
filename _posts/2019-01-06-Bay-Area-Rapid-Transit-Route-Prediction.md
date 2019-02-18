@@ -13,8 +13,6 @@ externalLink: false
 
 # Business Objective: 
 Analyze data and answer questions from San Francisco Bay Area Rapid Trasit (BART).
-***
-
 
 ```python
 import pandas as pd
@@ -714,7 +712,7 @@ sns.barplot('Throughput', 'Origin', data=originThroughput)
 
 
 
-![png](output_29_1.png)
+![png](/assets/images/BART_data_analysis/output_29_1.png)
 
 
 ## What is the least popular BART route?
